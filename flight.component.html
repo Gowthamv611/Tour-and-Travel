@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Flight Ticket Booking</title>
+    <link ref="stylesheet" href="flight.component.css">
+    <link ref="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+
+<body bgcolor="blue">
+    <div style="
+    background-image: url('../../assets/air4.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; "  >
+
+
+    <div class="booking-form-box h-100">
+        <div class="radio-btn">
+            <input type="radio" class="btn" name="check" checked="checked">
+            <span>RoundTrip</span>
+            <input type="radio" class="btn" name="check"><span>One-Way</span>
+            <input type="radio" class="btn" name="check"><span>Multi-City</span>
+        </div>
+        <div class="booking-form">
+            <label>Flying From</label><br>
+            <input type="text" class="form-control" placeholder="City or Airport"><br><br>
+            <label>Flying To</label><br>
+            <input type="text" class="form-control" placeholder="City or Airport"><br><br>
+            <div class="input-grp">
+                <label> Departing </label>
+                <input type="date" class="form-control" select="date">
+            </div><br><br>
+            <div class="input-grp">
+                <label> Returning </label>
+                <input type="date" class="form-control" select="date">
+            </div><br><br>
+            <div class="input-grp">
+                <label> Adult </label>
+                <input type="number" class="form-control" value="1">
+            </div><br><br>
+            <div class="input-grp">
+                <label> Children </label>
+                <input type="number" class="form-control" value="0">
+            </div><br><br>
+            <div class="input-grp">
+                <label> Travel Class </label>
+                <select class="custom-select">
+                    <option value="1">Economy Class</option>
+                    <option value="1">Business Class</option>
+                </select>
+            </div><br><br>
+            <div class="input-grp">
+                <button type="button" class="btn btn-primary flight">Show flight</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+
+</html>
